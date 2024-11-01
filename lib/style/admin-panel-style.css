@@ -1,0 +1,96 @@
+
+
+    /* Example Styles for Demo */
+    .etabs { margin: 0; padding: 0; }
+    .tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
+    .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
+    .tab a:hover { text-decoration: underline; }
+    .tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
+    .tab a.active { font-weight: bold; }
+    .tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
+    .panel-container { margin-bottom: 10px; }
+	.help-client-link{text-decoration: none;}
+	#tech_client_id{
+width:30%;
+}
+#tech_user_name{
+width:25%;
+}
+	
+	.form-table, .form-table td, .form-table td p, .form-table th, .form-wrap label {
+    font-size: 14px;
+}
+
+.form-table {
+    border-collapse: collapse;
+    margin-top: .5em;
+    width: 100%;
+    clear: both;
+}
+
+
+.buy-button{
+background: #f9866b; 
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    height: 34px;
+    border-radius: 3px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 34px;
+    padding-right: 10px;
+    display: inline-block;
+    margin: 14px 20px 0px 0px;
+}
+
+.buy-button span{
+background: #f16848;
+    width: 30px;
+    line-height: 34px;
+    height: 34px;
+    display: block;
+    float: left;
+    border-radius: 3px 0px 0px 3px;
+    margin-right: 10px;
+    text-align: center;
+}
+.rate{background: #4C4661;}
+.rate span{background: #3F3B50;}
+
+
+.buy{background: #27D655;}
+.buy span{background: #0FB13A;}
+
+.buy-package{background:#0815D5;}
+.buy-package span{background:#0711A6;}
+
+
+/* new css by ravi option panel */
+
+.frm_page{width:100%; background-color:#eeeeee; color:#000; font-family:Arial, Helvetica, sans-serif; padding-bottom:30px; padding-top:30px;}
+.frm_page h1{margin:0px; padding:10px 0px; font-size:18px; text-transform:uppercase;}
+.lbl_frm{font-size:13px; vertical-align:middle; color:#000000; margin-top:10px; text-transform:capitalize;}
+.txtfld_frm{margin-top:10px;}
+.txtfld_frm .form-control{width:50%; border:1px solid #999; border-radius:none; box-shadow:none;}
+.txtfld_frm .form-control::-moz-placeholder{color:#999; font-family:Arial, Helvetica, sans-serif;}
+.txtfld_frm p{color:#999999; margin-top:10px;}
+.txtfld_frm.check_box_pnl .form-control{display:inline-block; width:10%; vertical-align:top; height:inherit;}
+.txtfld_frm label{display:inline-block; vertical-align:top;}
+.txtfld_frm.sclct_bx .form-control{border:1px solid #999;}
+.txtfld_frm.radio_box_pnl ul{margin:0px; padding:0px;}
+.txtfld_frm.radio_box_pnl ul li{display:block;}
+.txtfld_frm.radio_box_pnl ul li .form-control{display:inline-block; width:2%; vertical-align:top; /*height:inherit;*/}
+
+@media (max-width: 768px){
+.txtfld_frm .form-control{width:100%;}
+ 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.txtfld_frm .form-control{width:100%;}
+}
+
+
+
